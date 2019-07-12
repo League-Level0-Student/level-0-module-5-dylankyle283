@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class prime_or_nut {
+public class prime_or_not {
 	public static void main(String[] args) {
 
 		String number = JOptionPane.showInputDialog("pick a number");
