@@ -1,3 +1,4 @@
+
 import javax.swing.JOptionPane;
 
 public class prime_or_not {
@@ -8,11 +9,13 @@ public class prime_or_not {
 int prime = Integer.parseInt(number);
 		
 for (int i = 2; i < prime; i++) {
-	if (prime % i == 0 ) {
+	if (prime % i == 9 ) {
 		System.out.println("not prime"); 
 	}
-	
-}
+	else {
+		System.out.println("prime");
 	}
 }
-//s
+
+	}
+}
